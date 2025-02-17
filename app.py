@@ -14,13 +14,13 @@ type=st.selectbox('Type',data['TypeName'].unique())
 
 ram=st.selectbox('Ram',[2,4,6,8,12,16,24,32,64])
 
-weight=st.number_input('Weight')
+weight=st.number_input('Weight',value=1.5)
 
 touchscreen=st.selectbox('Touch screen',['No','Yes'])
 
 ips=st.selectbox('IPS',['No','Yes'])
 
-screen_size=st.number_input('Screen size')
+screen_size=st.number_input('Screen size',value=15.6)
 
 resolution=st.selectbox('Screen Resolution',['1920x1080','1366x768','1600x900','3840x1800','2560x1600','2560x1440','2304x1440'])
 
