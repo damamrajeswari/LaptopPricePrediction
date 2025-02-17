@@ -6,7 +6,7 @@ pipe=pickle.load(open('pipe.pkl','rb'))
 data=pickle.load(open('data.pkl','rb'))
 
 
-st.title("Laptop Predictor")
+st.title("Laptop Price Predictor")
 
 company=st.selectbox('Brand',data['Company'].unique())
 
