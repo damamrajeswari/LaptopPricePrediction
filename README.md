@@ -2,7 +2,12 @@
 
 This repository contains a machine learning project aimed at predicting laptop prices based on various specifications. The project uses a dataset of laptop details and implements various machine learning algorithms to estimate the price of a laptop.
 
+
 ---
+🔗 Live Application URL: (https://laptoppricepredictionml.streamlit.app/)
+
+[![Alt Text](images/laptoppricepredictionml.streamlit.app.png)](https://laptoppricepredictionml.streamlit.app/)
+
 
 ## Table of Contents
 - [Introduction](#introduction)
